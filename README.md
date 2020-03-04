@@ -2,14 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-This repo builds a react widget, which integrates react-spring and reactstrap.
+This repo builds a paint app using React, and the lastest features of React have been applied, such as useState, useEffect Hooks.
 
-This widget could be used to introduce new feature, where an animation effect will be applied to the button leading to the new feature. 
+This app uses fetch API to make async calls to a Restfull API.
 
-Also, when the button is clicked, a popup window will show up to offer details of this new feature.
-
-If the user clicks "I got it, do not show this again." inside the popup window, the animation and popup will not appear again.
-
-## Tips
-
-When using react-spring, it is always a good idea to use React.memo() to wrap the component in order to ensure the performance.
+It offers different colors and widths for users to paint, and it also provides multiple functionalities, including downloading the painting, undoing, and clearing up the whole canvas.
